@@ -1,0 +1,2 @@
+Added JSON dependency in POM file.
+Need to change href in login.jsx file once index is created to be redirected into once logged in successfully.
