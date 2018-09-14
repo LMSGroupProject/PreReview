@@ -29,6 +29,8 @@ public class User implements Serializable {
 //	private Email email; //if this causes issues with database use string type instead
 	@NotEmpty
 	private String email;
+	
+	private boolean isActive;
 
 
 	
@@ -42,6 +44,7 @@ public class User implements Serializable {
 	this.password = "p";
 	this.userType = E_UserType.LEARNER;
 	this.email = "a@a.a";
+	isActive=true;
 }
 
 
