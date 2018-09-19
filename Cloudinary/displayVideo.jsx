@@ -1,10 +1,10 @@
-import React from 'react';
-import {Video, Transformation} from 'cloudinary-react';
+import React from "react";
+import {Video, Transformation} from "cloudinary-react";
 
 export default class DisplayVideo extends React.Component{
 constructor(props){
     super(props);
-    this.state={id:props.id}
+    this.state={id:props.id};
 }
 render(){
     return(
@@ -18,6 +18,6 @@ render(){
                 <h1>{this.state.id}</h1>
             </div>
         </div>
-    )
+    );
 }
 }
